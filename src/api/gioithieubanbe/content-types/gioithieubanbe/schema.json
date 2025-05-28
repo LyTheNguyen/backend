@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gioithieubanbes",
+  "info": {
+    "singularName": "gioithieubanbe",
+    "pluralName": "gioithieubanbes",
+    "displayName": "gioithieubanbe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tencuaban": {
+      "type": "string"
+    },
+    "tenbanbe": {
+      "type": "string"
+    },
+    "sodienthoaicuaban": {
+      "type": "biginteger"
+    },
+    "emailcuaban": {
+      "type": "email"
+    },
+    "emailbanbe": {
+      "type": "email"
+    },
+    "cvbanbe": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "danhtinh": {
+      "type": "string"
+    }
+  }
+}

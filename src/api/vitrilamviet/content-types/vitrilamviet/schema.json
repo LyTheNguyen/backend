@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vitrilamviets",
+  "info": {
+    "singularName": "vitrilamviet",
+    "pluralName": "vitrilamviets",
+    "displayName": "vitrilamviet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "anhvitrituyendung": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "loaivitri": {
+      "type": "string"
+    },
+    "tenvitri": {
+      "type": "string"
+    },
+    "sttvitri": {
+      "type": "integer"
+    },
+    "diachi": {
+      "type": "string"
+    },
+    "thoigianlamviec": {
+      "type": "string"
+    },
+    "motacongviec": {
+      "type": "text"
+    },
+    "yeucaucongviec": {
+      "type": "text"
+    },
+    "quyenloi": {
+      "type": "text"
+    },
+    "thongtinlienhe": {
+      "type": "text"
+    }
+  }
+}

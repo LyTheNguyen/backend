@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thongtinungviens",
+  "info": {
+    "singularName": "thongtinungvien",
+    "pluralName": "thongtinungviens",
+    "displayName": "thongtinungvien",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hovaten": {
+      "type": "string"
+    },
+    "sdt": {
+      "type": "biginteger",
+      "max": "15"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "gioitinh": {
+      "type": "string"
+    },
+    "truongdaihoc": {
+      "type": "string"
+    },
+    "chuyennganh": {
+      "type": "string"
+    },
+    "bangcap": {
+      "type": "string"
+    },
+    "kinhnghiemcongtyganday": {
+      "type": "text"
+    },
+    "kinhnghiemcongviecganday": {
+      "type": "string"
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thongtinkhac": {
+      "type": "text"
+    },
+    "ngaysinh": {
+      "type": "integer"
+    },
+    "thangsinh": {
+      "type": "integer"
+    },
+    "namsinh": {
+      "type": "integer"
+    },
+    "thangnhanbang": {
+      "type": "integer"
+    },
+    "namnhanbang": {
+      "type": "integer"
+    },
+    "kinhnghiemtuthang": {
+      "type": "integer"
+    },
+    "kinhnghiemtunam": {
+      "type": "integer"
+    },
+    "kinhnghiemdenthang": {
+      "type": "integer"
+    },
+    "kinhnghiemdennam": {
+      "type": "integer"
+    }
+  }
+}
