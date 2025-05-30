@@ -1,5 +1,5 @@
-    // strapi-api/config/database.js
-    module.exports = ({ env }) => ({
+    // strapi-api/config/database.ts
+    export default ({ env }) => ({
       connection: {
         client: 'postgres',
         connection: {

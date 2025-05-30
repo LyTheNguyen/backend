@@ -12,9 +12,10 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000', 'https://profound-nasturtium-fe2610.netlify.app'],
+      origin: ['http://localhost:3000', 'https://webtuyendung.netlify.app'],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization'],
+      credentials: true,
     },
   },
 ];
